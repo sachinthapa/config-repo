@@ -9,6 +9,8 @@ spring.datasource.password: "{cipher}ea9147d9561918402c3f20e358474ba59f03fcc8e76
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+# Hibernate ddl auto (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto= update
 redis.server: "redis"
 redis.port: "6379"
 signing.key: "345345fsdfsf5345"
