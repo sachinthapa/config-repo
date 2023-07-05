@@ -18,6 +18,9 @@ spring:
       #   locator:
       #     enabled: true
       #     lowerCaseServiceId: true
+      default-filters: 
+        - TokenRelay=
+        - RemoveRequestHeader=Cookie, Set-Cookie
       routes:
         - id: organizationservice
           uri: lb://organizationservice
