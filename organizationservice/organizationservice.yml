@@ -18,7 +18,6 @@ keycloak.credentials.secret: "WwOx6SoO5mDTYRAjmZUyyirWEflzRWRV"
 keycloak.use-resource-role-mappings : "true"
 keycloak.bearer-only : "true"
 
-spring.embedded.kafka.brokers: "localhost:9092"
 spring.cloud.stream.bindings.output.destination : "orgChangeTopic"
 spring.cloud.stream.bindings.output.content-type : "application/json"
 
