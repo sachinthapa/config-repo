@@ -10,7 +10,7 @@ spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 spring.jpa.hibernate.ddl-auto: "update"
-redis.server: "localhost"
+redis.server: "redis"
 redis.port: "6379"
 signing.key: "345345fsdfsf5345"
 
