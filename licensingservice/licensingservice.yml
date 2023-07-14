@@ -16,7 +16,7 @@ signing.key: "345345fsdfsf5345"
 
 
 keycloak.realm : "spmia-realm"
-keycloak.auth-server-url : "http://localhost:8081"
+keycloak.auth-server-url : "http://keycloak:8081"
 keycloak.ssl-required : "external"
 keycloak.resource : "ostock"
 keycloak.credentials.secret: "WwOx6SoO5mDTYRAjmZUyyirWEflzRWRV"
