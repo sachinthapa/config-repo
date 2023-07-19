@@ -31,8 +31,8 @@ spring:
         #     - RewritePath=/organization/(?<path>.*), /$\{path}
         - id: licensingservice id
           # uri: lb:licensingservice F
-          # uri: lb://licensingservice unauthoried
-          uri: licensingservice
+          uri: lb://licensingservice unauthoried
+          # uri: licensingservice format is incorrect, scheme can not be empty
           # uri: lb://license-service unavailable
           
           predicates:
