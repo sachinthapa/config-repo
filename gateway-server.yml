@@ -19,7 +19,7 @@ spring:
       discovery:
         locator:
           enabled: true
-          lowerCaseServiceId: true
+          lowercaseserviceid: true
       default-filters: 
         - RemoveRequestHeader=Cookie, Set-Cookie
       routes:
