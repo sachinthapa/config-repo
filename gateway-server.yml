@@ -16,10 +16,10 @@ spring:
   cloud:
     # loadbalancer.ribbon.enabled: false
     gateway:
-      # discovery:
-      #   locator:
-      #     enabled: true
-      #     lowercaseserviceid: true
+      discovery:
+        locator:
+          enabled: true
+          lowercaseserviceid: true
       default-filters: 
         - RemoveRequestHeader=Cookie, Set-Cookie
       routes:
@@ -29,7 +29,7 @@ spring:
         #     - Path=/organization/**
         #   filters:
         #     - RewritePath=/organization/(?<path>.*), /$\{path}
-        - id: licensingservice id
+        - id: licensingservice
           # uri: lb:licensingservice F
           uri: lb://licensingservice #unauthoried
           # uri: licensingservice format is incorrect, scheme can not be empty
