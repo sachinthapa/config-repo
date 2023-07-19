@@ -19,7 +19,7 @@ keycloak.realm : "spmia-realm"
 keycloak.auth-server-url : "http://keycloak:8081"
 keycloak.ssl-required : "external"
 keycloak.resource : "ostock"
-keycloak.credentials.secret: "WwOx6SoO5mDTYRAjmZUyyirWEflzRWRV"
+keycloak.credentials.secret: "jyCV1QtekkIHnDiIN5M4EaK2mDtk6rH4"
 keycloak.use-resource-role-mappings : "true"
 keycloak.bearer-only : "true"
 
