@@ -30,7 +30,7 @@ spring:
           filters:
             - RewritePath=/organization/(?<path>.*), /$\{path}
         - id: licensingservice
-          uri: http://licensingservice:8080
+          uri: http://license-service:8080
           predicates:
             - Path=/license/**
           # filters:
