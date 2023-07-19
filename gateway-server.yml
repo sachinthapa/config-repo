@@ -32,7 +32,8 @@ spring:
         - id: licensingservice id
           # uri: lb:licensingservice F
           # uri: lb://licensingservice unauthoried
-          uri: lb://license-service 
+          uri: licensingservice
+          # uri: lb://license-service unavailable
           
           predicates:
             - Path=/license/**
