@@ -23,5 +23,5 @@ signing.key: "345345fsdfsf5345"
 # spring.cloud.stream.bindings.output.destination : "orgChangeTopic"
 # spring.cloud.stream.bindings.output.content-type : "application/json"
 
-spring.kafka.bootstrap-servers: kafksda:9092
+spring.kafka.bootstrap-servers: kafka:9092
         
