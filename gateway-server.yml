@@ -23,12 +23,12 @@ spring:
       default-filters: 
         - RemoveRequestHeader=Cookie, Set-Cookie
       routes:
-        # - id: organizationservice
-        #   uri: lb://organizationservice
-        #   predicates:
-        #     - Path=/organization/**
-        #   filters:
-        #     - RewritePath=/organization/(?<path>.*), /$\{path}
+        - id: organizationservice
+          uri: lb://organizationservice
+          predicates:
+            - Path=/organization/**
+          filters:
+            - RewritePath=/organization/(?<path>.*), /$\{path}
         - id: licensingservice
           # uri: lb:licensingservice F
           uri: lb://licensingservice #unauthoried
