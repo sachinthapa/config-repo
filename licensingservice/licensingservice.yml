@@ -23,9 +23,11 @@ signing.key: "345345fsdfsf5345"
 # keycloak.use-resource-role-mappings : "true"
 # keycloak.bearer-only : "true"
 
-spring.embedded.kafka.brokers: "kafka"
-spring.cloud.stream.kafka.binder.defaultBrokerPort: "29092"
-spring.cloud.stream.bindings.input.destination : "orgChangeTopic"
-spring.cloud.stream.bindings.input.content-type : "application/json"
-spring.cloud.stream.bindings.input.group : "licensingGroup"
+spring.kafka.bootstrap-servers: kafka:9092
+
+# spring.embedded.kafka.brokers: "kafka"
+# spring.cloud.stream.kafka.binder.defaultBrokerPort: "29092"
+# spring.cloud.stream.bindings.input.destination : "orgChangeTopic"
+# spring.cloud.stream.bindings.input.content-type : "application/json"
+# spring.cloud.stream.bindings.input.group : "licensingGroup"
 
