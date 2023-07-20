@@ -19,7 +19,7 @@ signing.key: "345345fsdfsf5345"
 # keycloak.bearer-only : "true"
 
 spring.embedded.kafka.brokers: "kafka:29092"
-spring.cloud.stream.kafka.binder.defaultBrokerPort: "2902"
+spring.cloud.stream.kafka.binder.defaultBrokerPort: "29092"
 spring.cloud.stream.bindings.output.destination : "orgChangeTopic"
 spring.cloud.stream.bindings.output.content-type : "application/json"
 
