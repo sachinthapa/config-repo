@@ -23,7 +23,7 @@ signing.key: "345345fsdfsf5345"
 # keycloak.use-resource-role-mappings : "true"
 # keycloak.bearer-only : "true"
 
-spring.kafka.bootstrap-servers: kafka:9092
+spring.kafka.bootstrap-servers: kaasasdfka:9092
 spring.kafka.consumer.group-id: group_id
 spring.kafka.consumer.auto-offset-reset: latest
 spring.kafka.listener.ack-mode: auto-commit
